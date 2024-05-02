@@ -3,7 +3,7 @@
 Codenames implementation with interactive gameplay. This repository also includes experiments to test whether Sense2Vec and Word2Vec embedding models.
 
 ## Prerequisites
-- **Sense2Vec**: Look through Sense2Vec Explosion Installation and Setup to download Sense2Vec https://github.com/explosion/sense2vec?tab=readme-ov-file#pretrained-vectors
+- **Sense2Vec**: Look through Sense2Vec Explosion Installation and Setup to download Sense2Vec https://github.com/explosion/sense2vec?tab=readme-ov-file#pretrained-vectors. Download the s2v_old files which contain the training corpus
 - **Gensim**: Download Gensim library. https://pypi.org/project/gensim/
 - **Model**: Make sure model paths are downloaded.
 - **Config**: Make sure the configuration is correct in `config.yaml`.
