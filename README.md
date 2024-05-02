@@ -1,6 +1,6 @@
 # Codenames
 
-Codenames implementation with interactive gameplay. This repository also includes experiments to test whether Sense2Vec is a better clue giver than Word2Vec.
+Codenames implementation with interactive gameplay. This repository also includes experiments to test whether Sense2Vec and Word2Vec embedding models.
 
 ## Prerequisites
 - **Sense2Vec**: Look through Sense2Vec Explosion Installation and Setup to download Sense2Vec https://github.com/explosion/sense2vec?tab=readme-ov-file#pretrained-vectors
