@@ -28,7 +28,7 @@ model_paths:
 
 experiment_params:
   num_of_games: 30
-
+```
 ## Running Codenames
 - **Running Experiments**: Simply run `python experiment.py`.
 - **Playing the Game Yourself**: Run `python main.py`.
