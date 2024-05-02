@@ -3,10 +3,18 @@
 Codenames implementation with interactive gameplay. This repository also includes experiments to test whether Sense2Vec and Word2Vec embedding models.
 
 ## Prerequisites
-- **Sense2Vec**: Look through Sense2Vec Explosion Installation and Setup to download Sense2Vec https://github.com/explosion/sense2vec?tab=readme-ov-file#pretrained-vectors. Download the s2v_old files which contain the training corpus
+- **Sense2Vec**: Look through Sense2Vec Explosion Installation and Setup to download Sense2Vec https://github.com/explosion/sense2vec?tab=readme-ov-file#pretrained-vectors. Download the s2v_reddit_2015_md	which contains the pre-trained vectors. Unpack to retrieve s2v_old directory
+- **Word2Vec**: Look through https://code.google.com/archive/p/word2vec/ and download the 'GoogleNews-vectors-negative300.bin.gz' (4GB) pretrained Vectors
 - **Gensim**: Download Gensim library. https://pypi.org/project/gensim/
-- **Model**: Make sure model paths are downloaded.
 - **Config**: Make sure the configuration is correct in `config.yaml`.
+
+# IMPORTANT 
+MODEL PATHS SHOULD FOLLOW THIS STRUCTURE
+model_paths
+   └── s2v_old
+   │     └── GoogleNews-vectors-negative300.bin
+   │     └── wordlist
+
 
 ### Default Configuration:
 ```yaml
