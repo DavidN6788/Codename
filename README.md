@@ -8,14 +8,14 @@ Codenames implementation with interactive gameplay. This repository also include
 - **Gensim**: Download Gensim library. https://pypi.org/project/gensim/
 - **Config**: Make sure the configuration is correct in `config.yaml`.
 
-# IMPORTANT 
-MODEL PATHS SHOULD FOLLOW THIS STRUCTURE
+# Important 
+The model path must follow this structure
+```
 model_paths
-   └── s2v_old
-   │     └── GoogleNews-vectors-negative300.bin
-   │     └── wordlist
-
-
+   └── s2v_old/
+   └── GoogleNews-vectors-negative300.bin
+   └── wordlist
+```
 ### Default Configuration:
 ```yaml
 parameters:
